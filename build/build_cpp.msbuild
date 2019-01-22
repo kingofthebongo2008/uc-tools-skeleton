@@ -3,8 +3,4 @@
 
 <ItemGroup>	
 <ClCompile Include = "..\src\pch\pch.cpp"><PrecompiledHeader>Create</PrecompiledHeader></ClCompile>
-</ItemGroup>
-<ItemGroup>	
-<ClCompile Include = "..\src\uc_model_main.cpp" />	
-<ClCompile Include = "..\src\uc_model_texture_mips.cpp" />
 </ItemGroup></Project> 

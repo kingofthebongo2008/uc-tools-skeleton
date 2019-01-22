@@ -69,7 +69,7 @@
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)..\bin\win-$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
-    <TargetName>uc-texture</TargetName>
+    <TargetName>uc-skeleton</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
