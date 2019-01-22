@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>uc-tools-texture</id>
+    <id>uc-tools-skeleton</id>
     <version>@version</version>
-    <title>uc-tools-texture</title>
+    <title>uc-tools-skeleton</title>
     <authors>Stefan Dyulgerov</authors>
     <owners>kingofthebongo2009</owners>
     <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
@@ -11,9 +11,9 @@
     <iconUrl>http://www.gravatar.com/avatar/df362936893270e6a1b53807fa90e8fa</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows Native C++ Applications to use precompiled lzham</description>
-    <tags>texture,unique,uc,creator,pipeline</tags>
+    <tags>skeleton,unique,uc,creator,pipeline</tags>
   </metadata>
   <files>
-    <file src = "bin\win-x64\Release\uc-texture.exe" target = "bin" />
+    <file src = "bin\win-x64\Release\uc-skeleton.exe" target = "bin" />
   </files>
 </package>
