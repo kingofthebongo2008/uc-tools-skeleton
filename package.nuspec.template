@@ -12,6 +12,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows Native C++ Applications to use precompiled lzham</description>
     <tags>skeleton,unique,uc,creator,pipeline</tags>
+    <dependencies>
+        <dependency id="fbxsdk-2018-1-1-dll"/>
+        <dependency id="uc-lzham-desktop"/>
+    </dependencies>
   </metadata>
   <files>
     <file src = "bin\win-x64\Release\uc-skeleton.exe" target = "bin" />
