@@ -3,4 +3,7 @@
 
 <ItemGroup>	
 <ClCompile Include = "..\src\pch\pch.cpp"><PrecompiledHeader>Create</PrecompiledHeader></ClCompile>
+</ItemGroup>
+<ItemGroup>	
+<ClCompile Include = "..\src\uc_skeleton_main.cpp" />
 </ItemGroup></Project> 

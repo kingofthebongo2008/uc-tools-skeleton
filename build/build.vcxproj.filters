@@ -11,6 +11,21 @@
     <ClInclude Include="..\src\pch\targetver.h">
       <Filter>src\pch</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\uc_skeleton_command_line.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\uc_skeleton_exception.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\uc_skeleton_lip.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\uc_skeleton_options.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\uc_skeleton_skeleton.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src" />
@@ -22,6 +37,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="src" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\uc_skeleton_main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
     <None Include="packages.config" />
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
   </ItemGroup>
 </Project>

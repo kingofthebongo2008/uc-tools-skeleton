@@ -3,5 +3,10 @@
 
 <ItemGroup>	
 <ClInclude Include = "..\src\pch\pch.h"/>	
-<ClInclude Include = "..\src\pch\targetver.h"/>
+<ClInclude Include = "..\src\pch\targetver.h"/>	
+<ClInclude Include = "..\src\uc_skeleton_command_line.h"/>	
+<ClInclude Include = "..\src\uc_skeleton_exception.h"/>	
+<ClInclude Include = "..\src\uc_skeleton_lip.h"/>	
+<ClInclude Include = "..\src\uc_skeleton_options.h"/>	
+<ClInclude Include = "..\src\uc_skeleton_skeleton.h"/>
 </ItemGroup></Project> 
