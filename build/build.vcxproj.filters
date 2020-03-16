@@ -46,9 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
     <None Include="packages.config" />
-    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
-    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
-    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll" />
   </ItemGroup>
 </Project>
