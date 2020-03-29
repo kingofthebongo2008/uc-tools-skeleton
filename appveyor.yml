@@ -1,13 +1,12 @@
 version: 1.0.{build}
 pull_requests:
   do_not_increment_build_number: true
-image: Visual Studio 2019 Preview
+image: Visual Studio 2019
 configuration: Release
 platform: x64
 clone_folder: c:\projects
 install:
   - cd c:\projects
-  - git submodule update --init --recursive
 build_script:
 - cmd: >-
     nuget restore c:\projects\build\build.sln
@@ -38,10 +37,3 @@ deploy:
   api_key:
     secure: BrMmGYIAQqHeb/6UTz86bTHm3dW80f3ANWY7F4sLYks=
   skip_symbols: true
-notifications:
-- provider: Slack
-  incoming_webhook: https://hooks.slack.com/services/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
-  channel: uc-serialization
-  on_build_success: true
-  on_build_failure: true
-  on_build_status_changed: false
