@@ -3,7 +3,6 @@
   <Import Project="packages\uc-tools-import.1.0.17\build\native\uc-tools-import.props" Condition="Exists('packages\uc-tools-import.1.0.17\build\native\uc-tools-import.props')" />
   <Import Project="packages\uc-serialization.1.0.62\build\native\uc-serialization.props" Condition="Exists('packages\uc-serialization.1.0.62\build\native\uc-serialization.props')" />
   <Import Project="packages\fbxsdk-2020-1-0-dll.1.0.1\build\fbxsdk-2020-1-0-dll.props" Condition="Exists('packages\fbxsdk-2020-1-0-dll.1.0.1\build\fbxsdk-2020-1-0-dll.props')" />
-  <Import Project="packages\fbxsdk-2018-1-1-dll.2018.1.3\build\fbxsdk-2018-1-1-dll.props" Condition="Exists('packages\fbxsdk-2018-1-1-dll.2018.1.3\build\fbxsdk-2018-1-1-dll.props')" />
   <Import Project="packages\lzham-win64.1.0.1\build\lzham-win64.props" Condition="Exists('packages\lzham-win64.1.0.1\build\lzham-win64.props')" />
   <Import Project="packages\uc-math.1.0.6\build\native\uc-math.props" Condition="Exists('packages\uc-math.1.0.6\build\native\uc-math.props')" />
   <Import Project="packages\uc-core.1.0.18\build\native\uc-core.props" Condition="Exists('packages\uc-core.1.0.18\build\native\uc-core.props')" />
@@ -40,7 +39,6 @@
     <Import Project="packages\uc-lzham-desktop.1.0.10\build\native\uc-lzham-desktop.targets" Condition="Exists('packages\uc-lzham-desktop.1.0.10\build\native\uc-lzham-desktop.targets')" />
     <Import Project="packages\uc-math.1.0.6\build\native\uc-math.targets" Condition="Exists('packages\uc-math.1.0.6\build\native\uc-math.targets')" />
     <Import Project="packages\lzham-win64.1.0.1\build\lzham-win64.targets" Condition="Exists('packages\lzham-win64.1.0.1\build\lzham-win64.targets')" />
-    <Import Project="packages\fbxsdk-2018-1-1-dll.2018.1.3\build\fbxsdk-2018-1-1-dll.targets" Condition="Exists('packages\fbxsdk-2018-1-1-dll.2018.1.3\build\fbxsdk-2018-1-1-dll.targets')" />
     <Import Project="packages\fbxsdk-2020-1-0-dll.1.0.1\build\fbxsdk-2020-1-0-dll.targets" Condition="Exists('packages\fbxsdk-2020-1-0-dll.1.0.1\build\fbxsdk-2020-1-0-dll.targets')" />
     <Import Project="packages\uc-serialization.1.0.62\build\native\uc-serialization.targets" Condition="Exists('packages\uc-serialization.1.0.62\build\native\uc-serialization.targets')" />
     <Import Project="packages\uc-tools-import.1.0.17\build\native\uc-tools-import.targets" Condition="Exists('packages\uc-tools-import.1.0.17\build\native\uc-tools-import.targets')" />
@@ -111,8 +109,6 @@
     <Error Condition="!Exists('packages\uc-math.1.0.6\build\native\uc-math.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\uc-math.1.0.6\build\native\uc-math.targets'))" />
     <Error Condition="!Exists('packages\lzham-win64.1.0.1\build\lzham-win64.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\lzham-win64.1.0.1\build\lzham-win64.props'))" />
     <Error Condition="!Exists('packages\lzham-win64.1.0.1\build\lzham-win64.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\lzham-win64.1.0.1\build\lzham-win64.targets'))" />
-    <Error Condition="!Exists('packages\fbxsdk-2018-1-1-dll.2018.1.3\build\fbxsdk-2018-1-1-dll.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\fbxsdk-2018-1-1-dll.2018.1.3\build\fbxsdk-2018-1-1-dll.props'))" />
-    <Error Condition="!Exists('packages\fbxsdk-2018-1-1-dll.2018.1.3\build\fbxsdk-2018-1-1-dll.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\fbxsdk-2018-1-1-dll.2018.1.3\build\fbxsdk-2018-1-1-dll.targets'))" />
     <Error Condition="!Exists('packages\fbxsdk-2020-1-0-dll.1.0.1\build\fbxsdk-2020-1-0-dll.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\fbxsdk-2020-1-0-dll.1.0.1\build\fbxsdk-2020-1-0-dll.props'))" />
     <Error Condition="!Exists('packages\fbxsdk-2020-1-0-dll.1.0.1\build\fbxsdk-2020-1-0-dll.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\fbxsdk-2020-1-0-dll.1.0.1\build\fbxsdk-2020-1-0-dll.targets'))" />
     <Error Condition="!Exists('packages\uc-serialization.1.0.62\build\native\uc-serialization.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\uc-serialization.1.0.62\build\native\uc-serialization.props'))" />
