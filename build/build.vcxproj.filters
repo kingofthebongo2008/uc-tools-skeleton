@@ -46,6 +46,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="packages\fbxsdk-2018-1-1-dll.2018.1.1\bin\win-x64\libfbxsdk.dll" />
   </ItemGroup>
 </Project>
