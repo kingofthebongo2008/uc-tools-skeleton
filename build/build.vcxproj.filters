@@ -46,5 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\libfbxsdk.dll" />
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\libfbxsdk.dll" />
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\lzham_x64.dll" />
+    <None Include="$(MSBuildThisFileDirectory)..\bin\win-x64\libfbxsdk.dll" />
   </ItemGroup>
 </Project>
